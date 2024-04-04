@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Input Field Customization</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Reduce input field height */
+    .custom-input {
+      height: 30px; /* Adjust height as needed */
+    }
+
+    /* Target placeholder */
+    .custom-input::placeholder {
+      color: #999; /* Change placeholder color */
+      font-style: italic; /* Change placeholder style */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <form>
+        <div class="form-group">
+          <!-- Apply custom class to input field -->
+          <input type="text" class="form-control custom-input" placeholder="Enter your text">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Skip to content
+Aghmaz
+/
+itechnet-Bootcamp
+
+Type / to search
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Commit
+google clone code pushed
+ main
+@Aghmaz
+Aghmaz committed in 1 hour 
+1 parent ca13cfc
+commit 792fd17
+ 
+Showing 7 changed files with 355 additions and 0 deletions.
+Filter changed files
+  6 changes: 6 additions & 0 deletions6  
+march/week two/Day4.html
+@@ -9,6 +9,12 @@
+</head>
+
+<body>
+    <!-- Download the asset folder, and 
+        result.png is your assignment. 
+        Look at it and write HTML and CSS accordingly. 
+        The necessary picture for your assignment is 
+        in the asset folder. -->
+
+    <!-- container or wrapper  -->
+    <div class="container">
+        <h2>
+ 14 changes: 14 additions & 0 deletions14  
+march/week two/day5.html
+@@ -0,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+ Empty file removed0  
+march/week two/day5.js
+Empty file.
+ 74 changes: 74 additions & 0 deletions74  
+march/week two/google.html
+@@ -0,0 +1,74 @@
+<html>
+
+<head>
+    <title>google</title>
+    <style type="text/css">
+      
+</head>
+
+<body>
+    <center>
+        <img src="./assets/google.png" class="logo">
+    </center>
+    <center>
+        <input type="text" size="80" class="search">
+        <br>
+        <button class="btn">google search</button>
+        <button class="btn">I am feeling lucky</button>
+        <br>
+        <br>
+        <a class="eng">google offered in: </a>
+        <a href="https://youtube.com/" target="_blank" class="urd">اردو</a>
+        <a href="https://www.easyhindityping.com/pashto-to-urdu-translation" class="psh">پشتو</a>
+        <a href="https://play.google.com/store/apps/details?id=com.happydev4u.sindhiurdutranslator&hl=en&gl=US&pli=1"
+            class="sindi">سندھ</a>
+
+    </center>
+
+
+</body>
+
+</html>
+ 76 changes: 76 additions & 0 deletions76  
+march/week two/index.html
+@@ -0,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" type="image/png" href="./assets/icon.png" />
+    <script src="./script.js" defer></script>
+    <title>Google</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-right-section">
+          <li>
+            <a href="https://mail.google.com/mail">Gmail</a>
+          </li>
+
+          <li>
+            <a href="https://www.google.com.pe/imghp">Images</a>
+          </li>
+
+          <li class="menu-icon"></li>
+
+          <li>
+            <a href="">
+              <img src="./assets/pfp.jpeg" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-logo">
+        <img src="./assets/google.png" />
+      </section>
+
+      <section class="main-input">
+        <div class="main-input-container">
+          <span class="search-icon"> </span>
+          <input type="text" name="" id="" />
+          <a class="micro-icon" href=""></a>
+        </div>
+      </section>
+
+      <section class="main-buttons">
+        <div>
+          <button>Search with google</button>
+        </div>
+
+        <div>
+          <button>I'm feeling lucky</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-left">
+        <li><a href="https://about.google">About</a></li>
+        <li><a href="https://ads.google.com">Advertising</a></li>
+        <li><a href="https://smallbusiness.withgoogle.com">Business</a></li>
+        <li>
+          <a href="https://google.com/search/howsearchworks"
+            >How search works</a
+          >
+        </li>
+      </ul>
+      <ul class="footer-right">
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Settings</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
+ 183 changes: 183 additions & 0 deletions183  
+march/week two/main.css
+@@ -0,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .nav-right-section a {
+  margin-right: 10px;
+  color: #000000;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url("./assets/dots.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-logo img {
+  width: 300px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input .main-input-container input {
+  border-radius: 10%;
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 40px;
+}
+
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input-container .search-icon {
+  background-image: url("./assets/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  margin-left: 15px;
+
+  width: 18px;
+  height: 18px;
+}
+
+main .main-input .micro-icon {
+  background-image: url("./assets/mic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  margin-right: 15px;
+
+  width: 18px;
+  height: 18px;
+
+  cursor: pointer;
+}
+
+main .main-buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+
+main .main-buttons div {
+  display: inline-block;
+}
+
+main .main-buttons div button {
+  height: 36px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 14px;
+
+  color: #5f6368;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+main .main-buttons div button:hover {
+  border: 1px solid #dfe1e5;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #dfe1e5;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+footer ul {
+  display: flex;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+footer ul li {
+  margin: 10px;
+}
+
+footer .footer-left {
+  justify-self: left;
+}
+
+footer .footer-right {
+  justify-self: right;
+}
+ 2 changes: 2 additions & 0 deletions2  
+march/week two/useless.css
+@@ -1,3 +1,5 @@
+
+
+.main-section{
+    border: 2px solid black;
+    width: 500px;
+0 comments on commit 792fd17
+@oridaShah
+Comment
+ 
+Leave a comment
+ 
+ You’re not receiving notifications from this thread.
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+itechnet-Bootcamp/march/week two/google.html at 792fd174582f34e36fd34f8fa280384629507c5b · Aghmaz/itechnet-Bootcamp
+</body>
+</html>
